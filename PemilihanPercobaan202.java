@@ -20,6 +20,21 @@ public class PemilihanPercobaan202 {
 
         System.out.println("Nilai akhir = " + total + " sehingga " + message);
 
+        if( total > 80 && total <= 100) {
+            System.out.println("Mendapat nilai A dengan kualifikasi Sangat Baik");
+        } else if ( total > 73 && total <= 80) {
+            System.out.println("Mendapat nilai B+ dengan kualifikasi Lebih dari Baik");
+        } else if ( total > 65 && total <= 73) {
+            System.out.println("Mendapat nilai B dengan kualifikasi Baik");
+        } else if ( total > 60 && total <= 65) {
+            System.out.println("Mendapat nilai C+ dengan kualifikasi Lebih dari Cukup");
+        } else if ( total > 50 && total <= 60) {
+            System.out.println("Mendapat nilai C dengan kualifikasi Cukup");
+        } else if ( total > 39 && total <= 50) {
+            System.out.println("Mendapat nilai D dengan kualifikasi Kurang");
+        } else {
+            System.out.println("mendapat nilai E dengan kualifikasi Gagal");
+        }
     }
     
   
